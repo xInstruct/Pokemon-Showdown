@@ -1578,6 +1578,7 @@ export class RandomGen7Teams extends RandomTeams {
 			choicespecs: 1,
 			choiceband: 1,
 			choicescarf: 1,
+			focussash: 2,
 		};
 		const movesMax: {[k: string]: number} = {
 			rapidspin: 1,
@@ -1586,6 +1587,8 @@ export class RandomGen7Teams extends RandomTeams {
 			defog: 1,
 			spikes: 1,
 			toxicspikes: 1,
+			reflect: 1,
+			lightscreen: 1,
 		};
 		const requiredMoves: {[k: string]: string} = {
 			stealthrock: 'hazardSet',
